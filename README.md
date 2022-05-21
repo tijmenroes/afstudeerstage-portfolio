@@ -1,4 +1,5 @@
-# new-portfolio-app
+# Afstudeer stage portfolio
+Afstudeer stage product portfolio, waarin alle producten te vinden zijn voor de afstudeerstage bij Coosto in 2021.
 
 ## Project setup
 ```

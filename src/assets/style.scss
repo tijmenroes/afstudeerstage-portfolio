@@ -1,0 +1,148 @@
+// $yellow:#FAFA00;
+// $red: #D81E5B;
+// $yellow: #F6E71D;
+
+$red: #D81E5B;
+$yellow: #4D7BAC;
+
+
+body, html, .wrapper{
+    // background-color: #0C0E10 !important;
+    background-color: rgb(241, 241, 241) !important;
+}
+h1 {
+    color: $yellow;
+    font-size: 10vh;
+}
+p {
+    color: white;
+    font-size: 22px;
+}
+.imageDescr {
+    margin:auto;
+    text-align:center;
+    font-size: 1rem;
+}
+.landingDiv {
+    background-color: #0C0E10;
+    height: 100vh;
+}
+.productsDiv {
+    background-color: #0C0E10;
+}
+.onTop {
+    z-index: 2;
+}
+.whitebgleft {
+    background:white;
+    width: 50%;
+    margin-left: 50%;
+    position: absolute;
+    height: 70vh;
+}
+
+.companyDiv  {
+    // padding-bottom: 50px;
+    min-height: 70vh;
+} 
+.painsDiv  {
+    min-height: 50vh;
+}
+
+.assignmentDiv  {
+    // background: #f5d20dec;
+    background: #4D7BAC;
+    min-height: 75vh;
+}
+.assignmentDiv p {
+    color:white;
+}
+.assignmentDiv h1, .assignmentDiv hr {
+    color: white !important;
+    
+}
+.assignmentDiv hr {
+    border-color: #181818 !important;
+    background-color:#181818 !important;
+}
+
+.assignmentDiv p {
+    color: #181818;
+}
+// Fancy things
+hr {
+    border-radius: 5px;
+    border: 2px solid $yellow;
+    background-color: $yellow;
+}
+.texthr {
+    width: 10%;
+}
+
+.endhr {
+    width: 50%;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    border-width: 5px;
+}
+
+.sphere {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: $yellow;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.top-sphere {
+    right: -15px;
+    bottom: -15px;
+    // z-index: -1;
+    background-color: $yellow;
+    opacity: 0.3;
+}
+
+.bottom-sphere {
+    right: -15px;
+    bottom: -15px;
+    z-index: 0;
+    background-color: $yellow;
+    opacity: 0.5;
+}
+.painIcon {
+    margin: auto;
+    color: black !important;
+    // background-color: black;
+}
+.activeChip {
+    background-color: $yellow !important;
+    transition: 0.3s ease;
+}
+.defaultChip {
+    background-color: transparent !important;
+    color: white !important;
+}
+.profilePic {
+    border: 8px solid $yellow;
+    display: inline-flex;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // -webkit-filter: grayscale(0%);
+    // -moz-filter:    grayscale(0%);
+    // -ms-filter:     grayscale(0%);
+    // -o-filter:      grayscale(0%);
+}
+.profilePic img {
+    border-radius: 50%;
+    // border: 8px solid $yellow;
+    filter: grayscale(90%);
+}
+.profileContainer {
+    position: relative;
+    z-index: 0
+}

@@ -1,0 +1,171 @@
+[
+  {
+    "name": "Pijnpunten",
+    "tag": ["Research"],
+    "context": "Analyse naar de pijnpunten van de huidige DAS. Deze zijn ontstaan uit ervaringen van het JobFeed team bij de huidige DAS, en een best, good and worse practices onderzoek naar de huidige interface. ",
+    "hover": false,
+    "finished": true,
+    "group": 2,
+    "pdf": "pijnpunten",
+    "icon": "mdi-bandage"
+  },
+  {
+    "name": "PID",
+    "tag": ["Research"],
+    "context": "Project Initiatie Document waarin de opdracht, aanpak en planning van dit project worden beschreven.",
+    "hover": false,
+    "finished": true,
+    "pdf": "pid",
+    "icon": "mdi-notebook"
+  },
+  {
+    "name": "Doelgroep omschrijving",
+    "tag": ["Research"],
+    "context": "Aanlyse van de doelgroep van de DAS, met informatie uit de userbase van de huidige DAS en het JobFeed team.",
+    "hover": false,
+    "finished": true,
+    "pdf": "doelgroep",
+    "icon": "mdi-account-group"
+  },
+  {
+    "name": "Authentication",
+    "group": 1,
+    "tag": ["Research", "Development"],
+    "context": "Adviesrapport over de juiste opzet van authenticatie en autorisatie bij de DAS.",
+    "hover": false,
+    "finished": true,
+    "pdf": "authentication"
+  },
+  
+  {
+    "name": "JWTs",
+    "group": 1,
+    "tag": ["Research"],
+    "context": "Adviesrapport over het gebruik van JWTs bij de authenticatie van de DAS. ",
+    "hover": false,
+    "pdf": "jwts",
+    "finished": true
+  },
+  
+  {
+    "name": "User interface",
+    "group": 2,
+    "tag": ["Design"],
+    "context": "Procesbeschrijving hoe er tot een nieuwe interface voor de DAS gekomen is die alle pijnpunten oplost.",
+    "pdf": "user-interface",
+    "hover": false,
+    "finished": true
+  },
+  {
+    "name": "Prototype",
+    "group": 2,
+    "tag": ["Design"],
+    "context": "Clickable XD Prototype.",
+    "hover": false,
+    "finished": true,
+    "iframe": true,
+    "link": "https://xd.adobe.com/view/4a7cb477-09fc-425d-b75c-e0c2ad13e605-1f2f/?fullscreen&hints=off"
+  },
+  {
+    "name": "Usertesten 1",
+    "group": 2,
+    "tag": ["Design", "Research"],
+    "context": "Usability testing met de doelgroep en UX experts op het clickable prototype.", 
+    "finished": true,
+    "pdf": "usertesting",
+    "hover": false
+  },
+  {
+    "name": "Frontend tooling",
+    "tag": ["Research"],
+    "context": "Trend analyse om inzichtelijk te krijgen wat de best passende tooling voor het DAS frontend is.",
+    "hover": false,
+    "pdf": "frontend-tooling",
+    "finished": true
+  },
+ 
+  {
+    "name": "Spar sessie JobFeed team",
+    "group": 2,
+    "tag": ["Design", "Research"],
+    "context": "Spar sessie met het JobFeed team om een aantal vragen die tijdens de usertesten en development zijn ontstaan te beantwoorden.",
+    "finished": true,
+    "hover": false,
+    "pdf": "sparsessie"
+  },
+
+  {
+    "name": "API Gateway",
+    "tag": ["Research"],
+    "context": "Onderzoek naar de meest geschikte design pattern voor de DAS",
+    "hover": false,
+    "pdf": "design-pattern",
+    "group": 3,
+    "finished": true
+  },
+
+  {
+    "name": "Web prototype met mock data",
+    "group": 2,
+    "tag": ["Development", "Design"],
+    "context": "Web prototype met mock data bedoeld voor usertesten.",
+    "finished": true,
+    "link": "http://i367471.hera.fhict.nl/das-mock-poc/",
+    "hover": false
+  },
+
+  {
+    "name": "Usertesten 2",
+    "group": 2,
+    "tag": ["Design", "Research"],
+    "context": "Usertesten met de doelgroep op het web prototype met mock data. ",
+    "finished": true,
+    "pdf": "usertesting2",
+    "hover": false
+  },
+
+  {
+    "name": "Git Frontend",
+    "tag": ["Development"],
+    "context": "GIT Repo met het opgeleverde frontend voor de stage",
+    "link": "https://git.fhict.nl/I367471/das-ui",
+    "finished": true,
+    "hover": false
+  },
+  {
+    "name": "Gebruikersrollen",
+    "tag": ["Research"],
+    "context": "In kaart brengen welke gebruikersrollen er zijn, en welke restricties deze hebben. Deze informatie kan worden doorgevoerd in de gateway. ",
+    "hover": false,
+    "finished": true,
+    "group": 3,
+    "pdf": "gebruikersrollen"
+  },
+  
+  {
+    "name": "Git Gateway",
+    "tag": ["Development"],
+    "group": 3,
+    "context": "GIT Repo met de opgeleverde API gateway voor de stage",
+    "link": "https://git.fhict.nl/I367471/das-bff",
+    "finished": true,
+    "hover": false
+  },
+  {
+    "name": "Development struikelblokken",
+    "tag": ["Development"],
+    "context": "Procesbeschrijving van de struikelblokken die ik ben tegengekomen tijdens de development van het eindproduct.",
+    "hover": false,
+    "finished": true,
+    "pdf": "development-proces"
+  },
+  {
+    "name": "Leeswijzer",
+    "tag": ["Design", "Research", "Development"],
+    "context": "Leeswijzer waarin beschreven wordt hoe het project is gelopen.",
+    "pdf": "leeswijzer",
+    "finished": true,
+    "hover": false
+  }
+
+]
